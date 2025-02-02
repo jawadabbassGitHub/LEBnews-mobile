@@ -1,16 +1,27 @@
-# final_news_app_senior
+# News Project
 
-the final senior app for the senior corse
+## Overview
+This project is a news platform that includes:
+- A **website** built with Express.js to manage news articles, topics, subtopics, and web scraping.
+- A **Flutter mobile app** that fetches news from the website and external APIs.
 
-## Getting Started
+## Technologies Used
+- **Backend:** Express.js, Node.js
+- **Frontend (Mobile):** Flutter
+- **Database:** MySQL (SQL files included)
+- **APIs Used:**
+  - [Arabic News API](https://rapidapi.com/ruamazi/api/arabic-news-api)
+  - [WeatherAPI](https://www.weatherapi.com/)
+  - [NewsAPI.org](https://newsapi.org/)
 
-This project is a starting point for a Flutter application.
+## Installation
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/news_project.git
+cd news_project
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+cd mobile_app
+flutter pub get
+flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
